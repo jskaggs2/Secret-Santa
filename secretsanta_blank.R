@@ -15,6 +15,7 @@ mypassword = "YOURPASSWORD"
 
 # data --------------------------------------------------------------------
 
+
 # Save santa data as a dataframe
 Name1 <- data.frame(
   name = "blank",
@@ -22,7 +23,7 @@ Name1 <- data.frame(
   hobby = "blank",
   shirt = "blank",
   fragrance = "blank",
-  other = "no")
+  other = "blank")
 Name2 <- data.frame(
   name = "blank",
   email = "blank",
@@ -71,6 +72,7 @@ santas <- as.data.frame(sapply(santas, paste), stringsAsFactors = FALSE)
 
 
 # run ---------------------------------------------------------------------
+
 
 # Get santas and their emails
 rs <- list(santas$name, santas$email)
