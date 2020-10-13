@@ -46,7 +46,8 @@ for(r in 1:length(rs[[1]])){
                  "\n",
                  "\n",
                  "Merry Christmas!")
-  
+  # Send email
+  # Enable 'less secure aps' in Gmail
   mailR::send.mail(from = myaddress,
                    to = rs[[2]][[r]],
                    subject = "Your Secret Santa 2020!",
