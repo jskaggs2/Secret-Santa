@@ -32,7 +32,7 @@ for(r in 1:length(rs[[1]])){
   giftees <- setdiff(rs[[1]], c(drop, rs[[1]][[r]]))
   # Select one giftee randomly
   giftee <- sample(giftees, 1)
-  
+  # Define email body text
   body <- paste0("Hi ", rs[[1]][[r]],",",
                  "\n",
                  "Your secret santa is ", giftee, ". Here's all the information we have about them:",
