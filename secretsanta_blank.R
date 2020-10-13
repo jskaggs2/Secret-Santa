@@ -10,7 +10,7 @@ library(mailR)
 
 
 myaddress <- "YOUREMAIL@gmail.com"
-mypassword = "YOURPASSWORD"
+mypassword <- "YOURPASSWORD"
 
 
 # read survey -------------------------------------------------------------
