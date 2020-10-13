@@ -44,7 +44,8 @@ for(r in 1:length(rs[[1]])){
                  "\n", names(santas)[5], ": ", santas[santas$name == giftee, 5],
                  "\n", names(santas)[6], ": ", santas[santas$name == giftee, 6],
                  "\n",
-                 "\nMerry Christmas!")
+                 "\n,
+                 "Merry Christmas!")
   
   mailR::send.mail(from = myaddress,
                    to = rs[[2]][[r]],
